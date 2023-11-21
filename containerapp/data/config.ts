@@ -23,9 +23,9 @@ type Config = {
 };
 
 export const config: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  selector: `.docs-builder-container`,
+  url: "https://energodotacie.mhsr.sk/",
+  match: "https://energodotacie.mhsr.sk/**",
+  selector: "section",  // Replace with the actual CSS selector based on the site's structure
   maxPagesToCrawl: 50,
   outputFileName: "../data/output.json",
 };
